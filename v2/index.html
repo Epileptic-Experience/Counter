@@ -11,40 +11,28 @@
         <link
             href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
             rel="stylesheet">
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
-            crossorigin="anonymous">
     </head>
     <body>
-        <main>
-            <div class="container">
-                        <h1 class="passangers">Passangers</h1>
-                        <h2 id="count-el">0</h2>
-                        <div class="wrapper-boton">
-                            <button id="increment-btn"
-                                onclick="incrementPassanger()">
-                                <div class="texto-boton">
-                                    Aumentar
-                                </div>
-                            </button>
-                            <button onclick="guardar()">
-                                guardar
-                            </button>
-                            <button onclick="reset()">
-                                reset
-                            </button>
-                        </div>
+        <div class="container">
+            <h1 class="passangers">Passangers</h1>
+            <h2 id="count-el">0</h2>
+            <div class="wrapper-boton">
+                <button id="increment-btn" onclick="incrementPassanger()">
+                    <div class="texto-boton">
+                        Aumentar
                     </div>
-                </div>
-                </main>
-                <script src="index.js"></script>
-                <script
-                    src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
-                    integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
-                    crossorigin="anonymous">
-            </script>
+                </button>
+
+                <button id="save-btn" onclick="save()">
+                    guardar
+                </button>
+
+                <button onclick="reset()" id="reset-btn">
+                    reset
+                </button>
+
             </div>
-        </body>
-    </html>
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>
