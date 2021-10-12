@@ -1,11 +1,12 @@
 body {
-    background-image: url(../counting_app/imagenes/meric-dagli-gwf4eIsVqXQ-unsplash\ \(1\).jpg);
+    background-image: url(imagenes/fondo.jpg);
     /* background-position-x: center;
     background-position-y: center; */
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     overflow: hidden;
+    aspect: ratio 1px 1px; ;
 }
 
 .container {
@@ -48,6 +49,18 @@ body {
 }
 
 
+#save-el {
+    flex-direction: row;
+    color: black;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin: auto;
+    margin-top: 50px;
+    
+
+}
+
 
 
 .wrapper-boton {
@@ -72,6 +85,6 @@ button {
     margin-top: 10px;
     font-size: 20px;
     display: inline;
-    margin-bottom: 20px;
+    
 }
 
