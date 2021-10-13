@@ -6,13 +6,14 @@ body {
     background-size: cover;
     text-align: center;
     overflow: hidden;
-    aspect: ratio 1px 1px; ;
+    margin: 0%;
 }
 
 .container {
     position: relative;
     margin: auto;
     display: inline-block;
+    z-index: 1;
 }
 
 .passangers {
@@ -55,19 +56,26 @@ body {
     font-size: 30px;
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    margin: auto;
-    margin-top: 50px;
+    margin: 10px;
     opacity: 100%;
+    margin-top: 50px;
     
 
 }
 
+
+ 
 .savewrapper{
-    width: auto;
-    margin: auto;
+    width: 100%;
+    height: auto;
     background-color: white;
     opacity: 50%;
+    margin: auto;
+    
+    
 }
+
+
 
 .wrapper-boton {
     position: relative;
@@ -82,6 +90,7 @@ button {
     position: relative;
     width: 100%;
     height: 100%;
+    margin-bottom: 50px;
     margin: auto;
     background-color: brown;
     color: white;
@@ -91,6 +100,7 @@ button {
     margin-top: 10px;
     font-size: 20px;
     display: inline;
+    
     
 }
 
