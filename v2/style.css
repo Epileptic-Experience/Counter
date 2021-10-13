@@ -57,11 +57,17 @@ body {
     font-weight: 700;
     margin: auto;
     margin-top: 50px;
+    opacity: 100%;
     
 
 }
 
-
+.savewrapper{
+    width: auto;
+    margin: auto;
+    background-color: white;
+    opacity: 50%;
+}
 
 .wrapper-boton {
     position: relative;

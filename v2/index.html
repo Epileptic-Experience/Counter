@@ -14,7 +14,7 @@
     </head>
     <body>
         <div class="container">
-            <h1 class="passangers">Passangers</h1>
+            <h1 class="passangers">passangers</h1>
             <h2 id="count-el">0</h2>
             <div class="wrapper-boton">
                 <button id="increment-btn" onclick="incrementPassanger()">
@@ -22,17 +22,13 @@
                         Aumentar
                     </div>
                 </button>
-
                 <button id="save-btn" onclick="save()">
                     guardar
                 </button>
-
+                <!-- 
                 <button onclick="reset()" id="reset-btn">
                     restart
-                </button>
-
-                
-
+                </button> -->
                 <!-- <button onclick="notifications()">
                     messages
                 </button>
@@ -42,11 +38,14 @@
                 <button onclick="greetings()">
                     greeting
                 </button> -->
-
             </div>
-            
+
         </div>
-        <p id="save-el">Previous entries:</p>
+        <div class="savewrapper">
+            <p id="save-el">
+                Previous entries:
+            </p>
+        </div>
         <script src="index.js"></script>
     </body>
 </html>

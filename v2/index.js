@@ -9,17 +9,15 @@ function incrementPassanger() {
 }
 
 
-function reset() {
-    count += - count
-    document.getElementById("count-el").innerText = count
-    console.log(count)
-}
 
 let saveEl = document.getElementById("save-el")
 
 function save() {
-    let saved = `${count}-`
-    saveEl.innerText +=  saved
+    let saved = count + " - "
+    saveEl.textContent +=  saved
+    count += - count
+    // document.getElementById("count-el").innerText = count
+    console.log(count)
 }
 
 
