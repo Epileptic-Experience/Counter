@@ -13,7 +13,7 @@ function incrementPassanger() {
 let saveEl = document.getElementById("save-el")
 
 function save() {
-    let saved = count + " - "
+    let saved = count + " + "
     saveEl.textContent +=  saved
     count += - count
     // document.getElementById("count-el").innerText = count
